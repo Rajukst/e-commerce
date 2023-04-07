@@ -1,0 +1,25 @@
+.buttons {
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+.viewBtn button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+}
+.viewBtn button:hover, .viewBtn button:focus{
+    color: black;
+    background-color: orangered;
+}
+.cartBtn button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+}
+.cartBtn button:hover, .cartBtn button:focus{
+    color: black;
+    background-color: orangered;
+}
